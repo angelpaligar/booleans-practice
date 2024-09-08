@@ -1,34 +1,56 @@
-const favNumber1 = 21;
+let isActive = true;
 
-const favNumber2 = 12;
+let isSubscribed = false;
 
-const sum = favNumber1 + favNumber2;
+console.log(isActive);
 
-console.log(sum);
-
-
-const favNumber3 = 21;
-
-const favNumber4 = 12;
-
-const difference = favNumber3 - favNumber4;
-
-console.log(difference);
+console.log(isSubscribed);
 
 
-const favNumber5 = 21;
+let isEmpty = Boolean('');
 
-const favNumber6 = 12;
+let isNotEmpty = Boolean('Hello World');
 
-const product = favNumber5 * favNumber6;
+console.log(isEmpty);
 
-console.log(product);
+console.log(isNotEmpty);
 
 
-const favNumber7 = 21;
+let a = 5;
 
-const favNumber8 = 12;
+let b = 5;
 
-const quotient = favNumber7 / favNumber8;
+let isGreater = a > b;
 
-console.log(quotient);
+let isEqual = a == b;
+
+console.log(isGreater);
+
+console.log(isEqual);
+
+
+let zero = 0;
+
+let notZero = 42;
+
+console.log(Boolean(zero));
+
+console.log(Boolean(notZero));
+
+
+let isAdult = true;
+
+let hasPermission = false;
+
+let canEnter = isAdult && hasPermission;
+
+console.log(canEnter);
+
+
+let obj = {};
+
+let arr = [];
+
+console.log(Boolean(obj));
+
+console.log(Boolean(arr));
